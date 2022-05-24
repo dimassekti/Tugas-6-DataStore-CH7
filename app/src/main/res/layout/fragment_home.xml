@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeFragment">
+
+    <TextView
+        android:id="@+id/usernametampil"
+        android:text="masih kosong"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+    <Button
+        android:id="@+id/logouthome"
+        android:text="logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </Button>
+
+    <Button
+        android:id="@+id/btnprofile"
+        android:text="profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </Button>
+
+</LinearLayout>
